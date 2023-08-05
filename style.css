@@ -150,9 +150,13 @@
   font-weight: 600;
   line-height: 60px;
   letter-spacing: 0.01em;
-  text-align: center;
   margin-bottom: 10px;
 }
+
+#about-us-header-id {
+    text-align: center;
+    margin: 20px 0;
+  }
 
 .about-us-text-and-img {
   display: flex;
@@ -192,23 +196,14 @@
   font-weight: 600;
 }
 
-#about-us-header-id {
-  margin: 20px 0;
-}
-
 .why-choose-us-section {
     display: flex;
     gap: 30px;
-    /* background-color: red; */
-    margin: 0 62px;
+    margin: 0 62px 60px 62px;
 }
 
 .svg-div {
     margin-bottom: 10px;
-}
-
-.each-div {
-
 }
 
 .bold-heading {
@@ -231,6 +226,35 @@
     text-align: left;
     color: #1E1E1E;
 }
+
+.services-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 62px;
+}
+
+.services-text-info {
+    width: 60%;
+    font-family: 'Source Sans 3', sans-serif; 
+    font-size: 20.5px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: right;
+    color: #1E1E1E;
+    /* overflow: hidden; */
+    /* text-align: right; */
+    /* flex-wrap: wrap; */
+}
+
+.quote-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 62px;
+    margin-bottom: 20px;
+}
+
+
 
 
 /* font-family: 'Noto Sans Cypro Minoan', sans-serif;
