@@ -85,7 +85,6 @@
 .hero-section-part-b {
     width: 45%;
     height: 100%;
-    background-color: ;
 }
 
 .hero-image {
@@ -134,10 +133,16 @@
 }
 
 .about-us-section {
-    width: 100%;
-    height: 50vh;
+    position: absolute;
+    top: 88%;
+    left: 5%;
+    background-color: #fff;
+    width: 90%;
+    height: 111vh;
+    padding: 50px 40px 40px 40px;
+    border-radius: 2px;
+    box-shadow: 4px 4px 24px 0px #1E1E1E0A;
 }
-
 
 .about-us-header {
     font-family: 'Source Sans 3', sans-serif;
@@ -145,14 +150,50 @@
     font-weight: 600;
     line-height: 60px;
     letter-spacing: 0.01em;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.about-us-holding-section-div {
+.about-us-text-and-img {
     display: flex;
-    height: ;
-    width: ;
+    gap: 30px;
+    height: 100%;
+    width: 100%;
 }
+
+.about-us-text-part {
+    padding: 10px;
+    width: 50%;
+    height: 80%;
+}
+
+.about-us-holding-img{
+    width: 50%;
+    height: 90%;
+}
+
+.about-us-img {
+    width: 100%;
+    height: 100%;
+}
+
+.onye-ji-cash-text {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #1E1E1ECC;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.ojc-bold-text {
+    font-weight: 600;
+}
+
+
+
 
 
 /* font-family: 'Noto Sans Cypro Minoan', sans-serif;
